@@ -10,14 +10,14 @@ const Navbar = () => {
       sx={{ gap: { xs: '40px', sm: '122px'}, mt: {xs: '20px', sm: '32px'},
       justifyContent: 'none'
     }} px='20px'>
-      <Link to="/">
+      <Link to="/fitness-app">
         <img src={Logo} alt="logo" style={{
           width: '48px', height: '48px', margin: '0 20px'
         }} />
       </Link>
 
       <Stack direction="row" gap="40px" fontSize="24px" alignItems="center">
-        <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', 
+        <Link to="/fitness-app" style={{ textDecoration: 'none', color: '#3A1212', 
           borderBottom: '3px solid #FF2625'
         }}>
           Home
